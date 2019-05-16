@@ -20,6 +20,20 @@ namespace CarouselTemplate.Controllers
             return View();
         }
 
+        public IActionResult Pricing()
+        {
+            return View();
+        }
+
+        public IActionResult Components()
+        {
+            return View();
+        }
+        public IActionResult About()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
