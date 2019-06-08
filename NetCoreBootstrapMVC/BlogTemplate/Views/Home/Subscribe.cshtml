@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Subscribe";
+}
+
+<h1>Subscribe</h1>
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">How often would you like to get updates?</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>daily</option>
+            <option>weekdays only</option>
+            <option>once a week</option>
+            <option>twice weekly</option>
+            <option>5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Which Newsletters would you like?</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Cartoon Sportsball League</option>
+            <option>Angry Rabbits on a Mission</option>
+            <option>Regular Old News Junk</option>
+            <option>Politics Politics Politics Politics</option>
+            <option>Silver Hair and How Much It's Worth</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Got a message for us?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

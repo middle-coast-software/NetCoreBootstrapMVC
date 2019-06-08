@@ -20,6 +20,20 @@ namespace BlogTemplate.Controllers
             return View();
         }
 
+        public IActionResult BlogPost()
+        {
+            return View();
+        }
+
+        public IActionResult Subscribe()
+        {
+            return View();
+        }
+
+        public IActionResult Components()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
